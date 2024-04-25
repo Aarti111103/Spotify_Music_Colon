@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Music Colon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./Images//Spotify_favicon.jpg" type="image/x-icon" height="50px ", width="50px">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="Images/Spotify Logo.jpg" alt="" />
+        </div>
+        <ul>
+            <li>Home</li>
+            <li>Spotify Song's</li>
+            <button>Sign In</button>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="text">
+            <h2>Music For Everyone</h2>
+        </div>
+        <div class="card">
+            <div class="items">
+                <img src="Images/Bol Do Na Zara.jpg" alt="" />
+                <p>Bol Do Na Zara</p>
+                <span id="length">4:30<i id="1" class="fa-solid audio fa-circle-play"></i></span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="items">
+                <img src="Images/Ghungroo.jpg" alt="" />
+                <p>Ghungroo</p>
+                <span id="length">4:30<i id="2" class="fa-solid audio fa-circle-play"></i></span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="items">
+                <img src="Images/Main Rang Sharbaton Ka.jpg" alt="" />
+                <p>Main Rang Sharbaton Ka</p>
+                <span id="length">4:30<i id="3" class="fa-solid audio fa-circle-play"></i></span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="items">
+                <img src="Images/Tum Se Hii.jpg" alt="" />
+                <p>Nagada Nagada</p>
+                <span id="length">4:30<i id="4" class="fa-solid audio fa-circle-play"></i></span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="items">
+                <img src="Images/Paniyon Sa.jpg" alt="" />
+                <p>Paniyon Sa</p>
+                <span id="length">4:30<i id="5" class="fa-solid audio fa-circle-play"></i></span>
+            </div>
+        </div>
+        
+    </div>
+        <div class="seekBar">
+            <input type="range" id="range" value="0" min="0" max="100">
+            <div class="content">
+                <img id="gif" src="Images/playing.gif" alt="" />
+                <p id="songName">Bol Do Na Zara</p>
+                <i id="masterBtn" class="fa-solid  fa-circle-play"></i>
+            </div>
+        </div>
+        <script src="Music.js"></script>
+</body>
+</html>
