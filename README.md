@@ -2,7 +2,7 @@
 
 **Objective**
 
-Building a Spotify-themed project is an excellent way to enhance your web
+Building a Spotify-themed project is an excellent way to enhance web
 development skills, particularly in HTML , CSS, and JavaScript. 
 It allows you to practice creating complex web interfaces and implementing
 interactive features.
